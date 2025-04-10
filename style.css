@@ -1,4 +1,9 @@
 body {
     color: white;   
     background-color: black;
+    justify-content: center;
+}
+
+p {
+    max-width: 900px;
 }
