@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: white;   
     background-color: black;
@@ -7,5 +12,5 @@ body {
 }
 
 p {
-    max-width: 900px;
+
 }
