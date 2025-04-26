@@ -1,16 +1,87 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-body {
-    color: white;   
-    background-color: black;
-    justify-content: center;
-    text-align: center;
-    font-family: "Special Gothic Condensed One", sans-serif;
+body {   
+    background-color: #e3e3e3;
+    font-family: sans-serif;
+    margin: 0 30rem;
 }
 
-p {
+header {
 
 }
+
+.header-principal {
+    background-color: #4c4d4d;
+    padding: 2rem;
+}
+
+header h1 {
+    color: white;
+}
+
+.links {
+    background-color: #3c3d3d;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links a {
+    color: white;
+}
+
+main {
+    background-color: #ebebed;
+    display: flex;
+    flex-direction: row;
+}
+
+.lado-esquerdo {
+    padding: 1rem;
+}
+
+.foto-texto {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile-image {
+    width: 10rem;
+    
+}
+
+.lado-direito {
+    padding: 1rem;
+}
+
+.interests-box {
+    background-color: #60a5fa;
+    border: 2px solid #6699cc;
+    padding: 1px;
+    width: 300px;
+    margin: 20px 0;
+  }
+  
+  .interests-box h2 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .interests-table {
+    border-collapse: collapse; /* junta as bordas */
+  }
+  
+  .interests-table td {
+    border: 3px solid #ffffff;
+    padding: 8px;
+    font-size: 14px;
+    color: #003366;
+  }
