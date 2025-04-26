@@ -1,1 +1,2 @@
-# Eu (Coisas que eu gosto)
+# Eu
+Sobre mim
